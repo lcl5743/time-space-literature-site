@@ -1,0 +1,29 @@
+{
+  "format": "partitioned-json-array-v1",
+  "records": 8442,
+  "parts": [
+    {
+      "url": "papers.part-01.json",
+      "records": 2436,
+      "sha256": "5241eb6328cd4fb3df3d6428f72721981211ec24ea7672fa4d3def49b168b80c"
+    },
+    {
+      "url": "papers.part-02.json",
+      "records": 2618,
+      "sha256": "8f2b7dc1d7cfd888ba821c52ff890b0d03903ffb64a06ec776779762b455a397"
+    },
+    {
+      "url": "papers.part-03.json",
+      "records": 2689,
+      "sha256": "d51dc73b9aeefd7cf06e7cc148f18be107d5c36bb4f289ff4d1bebe9e5bbe199"
+    },
+    {
+      "url": "papers.part-04.json",
+      "records": 699,
+      "sha256": "cc9c0f1a6841ce5ff3c53d015b9a28461868ede99e16997f2853aefb69a07a71"
+    }
+  ],
+  "complete_gzip_url": "papers.json.gz",
+  "original_sha256": "a1447fd77f9b0cd6716caf1c90c4f31fa7c55d5c63947069f68fbc228e4fa481",
+  "note": "Concatenate the arrays in parts order, or decompress papers.json.gz for the byte-identical original papers.json."
+}
